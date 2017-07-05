@@ -1,0 +1,205 @@
+@charset "utf-8";
+/*
+///////////////////////////////////////////
+CSS FOR Common
+Made by Huongnt
+/////////////////////////////////////
+*/
+
+html {
+	overflow-y: scroll;
+}
+/*/////BODY/////*/
+body {
+	font-size: 12px;
+	line-height: 1.4;
+	font-family: "Kozuka Gothic  Pr6N", "MS Gothic", "MS PMincho", "ＭＳ Ｐゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Arial, Osaka, Sans-Serif;
+	min-width: 960px;
+	background:#f6edde;
+}
+#Container {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+	position:relative;
+}
+/*/////HEADER/////*/
+
+#Header {
+	position:relative;
+	background:url(../images/common/bg_header.png) center top repeat-x;
+	z-index:999;
+}
+#Header h1{
+	font-size:100%;
+	color:#000;
+	padding-left:35px;
+	line-height:22px;
+}
+#Logo {
+	float:left;
+	margin-top:10px;
+	margin-left:20px;
+}
+.h-btn{
+	float:right;
+	margin:10px 40px 0 0;
+}
+
+.h-right{
+	float:right;
+}
+.tel{
+	margin:35px 15px 5px 0;
+}
+
+
+/*/////NAVIGATION/////*/
+
+#Navigation {
+	position:relative;
+	width:100%;
+	background:url(../images/common/bg_nav.png) center top repeat-x;
+	height:79px;
+}
+
+#Nav {
+	height: 79px;
+	width:960px;
+	margin:0 auto;	
+}
+#Nav li {
+	height: 79px;
+	float: left;
+}
+
+#Nav li a {
+	height: 0;
+	padding: 79px 0 0 0;	
+	overflow: hidden;
+	display: block;
+	position: relative;
+	background:url(../images/common/nav.png) left top no-repeat;
+}
+
+
+
+#Nav li.nav1 a {
+	width:159px;
+	background-position:0 0;
+}
+#Nav li.nav2 a {
+	width:159px;
+	background-position:-159px 0;
+}
+#Nav li.nav3 a {
+	width:160px;
+	background-position:-318px 0;
+}
+#Nav li.nav4 a {
+	width:159px;
+	background-position:-478px 0;
+}
+#Nav li.nav5 a {
+	width:159px;
+	background-position:-637px 0;
+}
+#Nav li.nav6 a {
+	width:162px;
+	background-position:-796px 0;
+}
+
+
+
+
+/*/////CONTENT/////*/
+
+#Content {
+	position:relative;
+	margin-top:30px;
+	
+}
+#Main {
+	float:right;
+	width:615px;
+}
+
+#Side {
+	float:left;
+	width:310px;
+}
+.s-banner{}
+.s-banner li{margin-bottom:15px;}
+
+
+/*/////FOOTER/////*/
+
+#Footer {
+	position:relative;
+	height:50px;
+	overflow:hidden;
+	margin-top:50px;
+	background:#5e4c40;
+}
+#Footer .wrapper{
+	width:960px;
+}
+#Footer-nav {
+	background:url(../images/common/bg_f_nav.png) left bottom no-repeat;
+	padding-top:10px;
+}
+#Footer-nav {
+	float:left;
+}
+
+
+#Footer-nav  li{
+	padding:5px 0;
+	float:left;
+	font-size:117%;
+	color:#fff;
+}
+
+#Footer-nav li a{
+	font-size:100%;
+	color:#fff;
+	text-decoration:none;
+	margin-right:7px;
+}
+#Footer-nav li a:hover{
+	text-decoration:underline;
+}
+
+
+#Copyright {
+	font-size:117%;
+	text-align:right;
+	color:#fff;
+	padding-top:15px;
+}
+
+/*/////PAGETOP/////*/
+
+/* Page-top */
+#Page-top{
+	position:fixed;
+	right:30px;
+	bottom:120px;
+	z-index:999;
+}
+#Page-top a {
+	width:0;
+	height:0;
+	padding:110px 64px 0 0;
+	overflow:hidden;
+	background:url(../images/common/pagetop.png);
+	display:block;
+	outline: none;
+}
+
+
+
